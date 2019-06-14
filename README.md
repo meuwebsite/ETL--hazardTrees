@@ -8,11 +8,11 @@ SeeClickFix is the largest source of reports, with over 200k rows. Note the 'REQ
 
 # Process
 
-####Extract:
+#### Extract:
 To replicate these results with updated service reports, simply download the latest CSV from https://data.oaklandnet.com/Infrastructure/Service-requests-received-by-the-Oakland-Call-Cent/quth-gb8e and load it; simply by running the other cells you will start to compile the latest results.
 
 
-####Transform:
+#### Transform:
 
 * I want to isolate, for example, reports relating to trees that are still ongoing.  I search for the word 'Tree' in the 'DESCRIPTION" column, which does NOT pull up "Streets - Potholes/Depression"
 * Unfortunately since Oakland doesn't retain the user-input description which can contain a lot flavorful commentary; for example one request the user wrote "In front of 906 Washington st. There  is a tree grate that has been an trip hazard for quite sometime, please assist with resolving this issue."
@@ -21,7 +21,7 @@ To replicate these results with updated service reports, simply download the lat
 LIMITATION: I would have liked to display the image but the gmaps API docs says string only. source: https://jupyter-gmaps.readthedocs.io/en/latest/api.html
 
 
-####Load:
+#### Load:
 
 * Sources of data: (links and instructions throughout the jupyter notebook) City of Oakland Service Requests, SeeClickFix, EPSG.io Coordinate Systems Worldwide, & Google Maps API
 
