@@ -1,5 +1,7 @@
 # ETL--hazardTrees
 
+![x](map_screenshot.png)
+
 # Background
 
 SeeClickFix is the largest source of reports, with over 200k rows. Note the 'REQUESTID' column as different number formats depending on the source, which unfortunately is NOT the same number as 'service_request-id' from the SeeClickFix API. Also note some sources (such as 'Phone or Email') can have no location data.
